@@ -23,7 +23,7 @@ warnings.filterwarnings('ignore')
 
 # %matplotlib inline
 
-df = pd.read_csv(r'C:\Users\Hp\Desktop\git_ml\Dataset.csv')
+df = pd.read_csv('Dataset.csv')
 df
 
 df.head()
